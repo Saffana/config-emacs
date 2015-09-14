@@ -13,11 +13,11 @@
 (define-skeleton insert-header
   "Normalize your c files."
   ""
-  ;;'(setq author ("Fanny Deleyrolle"))
+  ;;'(setq author ("YOUR NAME HERE"))
   "/*******************************************************************************\n"
   "*\n"
   "* File Name         : "(file-name-nondirectory (buffer-file-name))"\n"
-  "* Created By        : Fanny Deleyrolle\n"
+  "* Created By        : YOUR NAME HERE\n"
   "* Creation Date     : \n"
   "* Last Change       : \n"
   "* Last Changed By   : \n"
@@ -43,7 +43,7 @@
   '(setq str (file-name-sans-extension
 	      (file-name-nondirectory (buffer-file-name))))
   "/* *********************************************/ \n"
-  "/* Author : Fanny Deleyrolle                     \n" 
+  "/* Author : YOUR NAME HERE                     \n" 
   "/* File : "(file-name-nondirectory (buffer-file-name))"\n"
   "/* *********************************************/ \n"
   "\n"
@@ -67,7 +67,7 @@
   "Create a Makefile."
   ""
   "# *********************************************\n"
-  "# Author : Fanny Deleyrolle\n" 
+  "# Author : YOUR NAME HERE\n" 
   "# File : "(file-name-nondirectory (buffer-file-name))"\n"
   "# *********************************************\n"
   "\n"
